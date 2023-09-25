@@ -1,0 +1,22 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file environment.yml
+# replace <env> with the name of your environment
+# platform: osx-arm64
+
+name: htf
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - bokeh=3.2.1
+  - conda
+  - numpy
+  - pandas
+  - pip
+  - python=3.11.5
+  - scikit-learn=1.2.2
+  - scipy=1.11.1
+  - yaml=0.2.5
+  - pip:
+    - pre-commit=3.4.0
+    - virtualenv=20.24.5
