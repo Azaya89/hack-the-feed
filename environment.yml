@@ -18,5 +18,5 @@ dependencies:
   - scipy=1.11.1
   - yaml=0.2.5
   - pip:
-    - pre-commit=3.4.0
-    - virtualenv=20.24.5
+    - pre-commit==3.4.0
+    - virtualenv==20.24.5
