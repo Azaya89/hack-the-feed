@@ -4,13 +4,13 @@ This repository serves as the home for the Hack The Feed project, a data analysi
 
 ## Table of contents
 
-    - [Project structure](#project-structure)
-    - [Setup](#setup)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#Contributing)
-    - [Activating pre-commit hooks](#activating-pre-commit-hooks)
-    - [Reporting issues](#reporting-issues)
+- [Project structure](#project-structure)
+- [Setup](#setup)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#Contributing)
+- [Activating pre-commit hooks](#activating-pre-commit-hooks)
+- [Reporting issues](#reporting-issues)
 
 ## Project structure
 
