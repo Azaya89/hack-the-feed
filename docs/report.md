@@ -141,7 +141,7 @@ The bar chart illustrating the `Reach` metric provides insights into the time pe
 
 #### Content Type with the Broadest Appeal
 
-**Methodology:** We use the same process as the facebook dataset as well to  visualize this metric by plotting a bar chart juxtaposing `Content Type` against the average `Organic Reach`.
+**Methodology:** We use the same process as the facebook dataset as well to visualize this metric by plotting a bar chart juxtaposing `Content Type` against the average `Organic Reach`.
 
 This comparative analysis helps pinpoint which content types resonate most organically with the audience, shedding light on their broad appeal.
 
@@ -162,7 +162,6 @@ We use a similar method as with the `Organic Reach` metric but now we plot the `
 
 From the findings, it is obvious that old users enagage more with Carousels.
 This quite different from what appeals to new users as gleaned from the `Organic Reach` metric.
-
 
 ### Dataset 3 - LinkedIn
 
@@ -186,7 +185,6 @@ We used the `Impressions` metric as our primary indicator of content performance
 The chart shows a disproportionate amount of engagement with Polls on LinkedIn.
 This is very instructive as it can guide decision making as to which content type can keep users engaged with the product.
 
-
 #### Trend of Impressions Over the Years
 
 **Methodology:** For the second question, we conducted a longitudinal analysis of impressions to identify trends over the years.
@@ -197,6 +195,7 @@ We used the same approach as for the Facebook dataset.
 ![Li_impressions](images/linkedin_impressions_over_time.png)
 
 Similar to all other datasets, the rate of impressions on all type of content seem to have dropped steadily from its peak in 2018-2019.
+
 #### Best Time to Post on LinkedIn
 
 **Methodology:** To determine the optimal posting times on LinkedIn, we employed a similar approach to the Facebook analysis.
