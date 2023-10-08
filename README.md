@@ -2,6 +2,8 @@
 
 This repository serves as the home for the Hack The Feed project, a data analysis endeavor undertaken for the `Hack the feed` hackathon. Our goal in this project was to analyze and derive insights from data sourced from the hackathon page [here](https://portfolio.diceytech.co.uk/project-opportunity/1692893137471x831086163701530600). Below, you will find details on the project's structure, how to set it up locally, its usage, and licensing information.
 
+A comprehensive report on the analyses can be found in the `docs/` directory named as [report.md](docs/report.md).
+
 ## Table of contents
 
 - [Project structure](#project-structure)
