@@ -36,7 +36,7 @@ We initiated the data preprocessing by executing it through the predefined `clea
 This transformation led to a reduction in the dataset, condensing it from 148 columns to 98 columns.
 The rationale behind these column drops is elucidated in the data preprocessing sub-section, accessible [above](#data-pre-processing).
 
-In the context of the Facebook dataset analysis, we posed and addressed the following inquiries:
+In the context of the Facebook dataset analysis, we posed and addressed the following questions:
 
 - Which type of content garners the highest number of impressions?
 - What is the trend in impressions over the years?
@@ -95,13 +95,128 @@ The resulting values were then visualized in a plot, providing the following ins
 
 **Findings:** This plot offers valuable insights into how users engage with shared links, facilitating a comprehensive understanding of CTR across different content types.
 
-### 2. Instagram
+### Dataset 2 - Instagram
 
-The Instagram dataset
+In the context of the Instagram dataset analysis, we posed and addressed the following questions:
 
-### LinkedIn
+1. What type of content generates the most impressions?
+2. What is the trend of impressions over the years?
+3. When is the best time to post on Instagram?
+4. What type of content has the broadest appeal?
+5. What type of contents generate the most authentic engagements?
 
-This ....
+#### Content Type and Impressions
+
+**Methodology:** To address the first question, we followed a similar methodology as in the Facebook analysis.
+We explored the relationship between content types (e.g., text, photos, videos) and impressions on Instagram.
+We used the `Impressions` metric as our primary indicator of content performance.
+
+**Findings:**
+
+![impressions](images/instagram_impressions.png)
+
+A cursory glance at the bar chart shows that all content types share similar impressions metric.
+It would have been instructive to perform some more analysis to see if these differences are significant but we were constrained by the approaching deadline.
+
+#### Trend of Impressions Over the Years
+
+**Methodology:** For the second question, we conducted a longitudinal analysis of impressions to identify trends over the years.
+We used the same approach as for the Facebook dataset.
+
+**Findings:**
+
+![IG_impressions](images/instagram_impression_over_years.png)
+
+Just like the facebook dataset, the impressions seem to have dropped off post 2021.
+
+#### Best Time to Post on Instagram
+
+**Methodology:** To determine the optimal posting times on Instagram, we employed a similar approach to the Facebook analysis.
+
+**FIndings**
+
+![IG_grid](images/instagram_average_reach.png)
+
+The bar chart illustrating the `Reach` metric provides insights into the time periods during which each content type can maximize its reach.
+
+#### Content Type with the Broadest Appeal
+
+**Methodology:** We use the same process as the facebook dataset as well to  visualize this metric by plotting a bar chart juxtaposing `Content Type` against the average `Organic Reach`.
+
+This comparative analysis helps pinpoint which content types resonate most organically with the audience, shedding light on their broad appeal.
+
+**Findings:**
+
+![organic](images/instagram_broadest_appeal.png)
+
+A glance at this chart reveals that videos have the most appeal as a content type on Instagram.
+
+#### Content Type with the most Authentic Engagement
+
+**Methodology:** Similar to the `Organic Reach` metric, we also analyzed the `Organic Impression` metric to give us insight as to the type of content that generate the most authentic engagements.
+We use a similar method as with the `Organic Reach` metric but now we plot the `Content Type` against `Organic Impressions`.
+
+**FIndings:**
+
+![org_imp](images/instagram_authentic_engagement.png)
+
+From the findings, it is obvious that old users enagage more with Carousels.
+This quite different from what appeals to new users as gleaned from the `Organic Reach` metric.
+
+
+### Dataset 3 - LinkedIn
+
+In the context of the LinkedIn dataset analysis, we posed and addressed the following questions:
+
+1. What type of content generates the most impressions?
+2. What is the trend of impressions over the years?
+3. When is the best time to post on LinkedIn?
+4. What type of contents generate the most authentic engagements?
+
+#### Content Type and Impressions
+
+**Methodology:** To address the first question, we followed a similar methodology as in the Facebook analysis.
+We explored the relationship between content types (e.g., text, photos, videos) and impressions on LinkedIn.
+We used the `Impressions` metric as our primary indicator of content performance.
+
+**Findings:**
+
+![impressions](images/linkedin_impression.png)
+
+The chart shows a disproportionate amount of engagement with Polls on LinkedIn.
+This is very instructive as it can guide decision making as to which content type can keep users engaged with the product.
+
+
+#### Trend of Impressions Over the Years
+
+**Methodology:** For the second question, we conducted a longitudinal analysis of impressions to identify trends over the years.
+We used the same approach as for the Facebook dataset.
+
+**Findings:**
+
+![Li_impressions](images/linkedin_impressions_over_time.png)
+
+Similar to all other datasets, the rate of impressions on all type of content seem to have dropped steadily from its peak in 2018-2019.
+#### Best Time to Post on LinkedIn
+
+**Methodology:** To determine the optimal posting times on LinkedIn, we employed a similar approach to the Facebook analysis.
+
+**FIndings**
+
+![Li_grid](images/linkedin_average_engagements.png)
+
+In this plot grid, we see a single row where the content type is a `Document` that generate higher than average engagements compared to other types.
+
+#### Content Type with the most Authentic Engagement
+
+**Methodology:** Similar to the `Organic Reach` metric, we also analyzed the `Organic Impression` metric to give us insight as to the type of content that generate the most authentic engagements.
+We use a similar method as with the `Organic Reach` metric but now we plot the `Content Type` against `Organic Impressions`.
+
+**FIndings:**
+
+![org_imp](images/linkedin_authentic_engagement.png)
+
+As is evident by the `Impressions` column, the `Poll` content type also has the most authentic engagement on Linkedin.
 
 ### Dataset 4 - Twitter
 
@@ -163,8 +278,7 @@ We could not justify how the CTR is determined for posts that have no links atta
 
 ## Recommendations
 
-We recommend...
-
-## Summary
-
-Here we summarise....
+1. In order to drive new user engagement on posts, we recommend tailoring the content type and time of posting to coincide with the highest `Impressions`, `Reach` and `Engagement`
+2. We also recommend further investigations into the pattern and quality of content post 2019.
+3. We also noticed that the same type of posts are posted across all the platforms.
+It would be more efficient to focus on the type of content that generates the most engaement for each platform.
